@@ -3,7 +3,7 @@
 .footer {
     padding: 60px 0;
     background-color: $dark-background-color;
-
+}
     .logo {
         font-family: Raleway;
         font-weight: 700;
@@ -14,7 +14,7 @@
         transition-property: transform;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    }
+    
         &:hover,
         &:focus {
             transform: scale(1.1);
@@ -23,10 +23,11 @@
         &__span {
             color: $active-color;
         }
-    }
-        logo__span--white {
+    
+        &__span--white {
             color: $secondary-text-color;
         } 
+    }
 .address {
     display: block;
 
@@ -41,8 +42,25 @@
       &__item:hover,
       &__item:focus {
         $secondary-text-color: $active-color;
-  $footer-text-color: $active-color;
-  transform: scale(1.05);
+        $footer-text-color: $active-color;
+        transform: scale(1.05);
+      }
+      &__link {
+        line-height: 1.46;
+        color: $secondary-text-color;
+        font-family: var(--main-font);
+        font-style: normal;
+        letter-spacing: 0.03em;
+      }
+      &__contact {
+        color: $footer-text-color;
+  line-height: 1.46;
+  letter-spacing: 0.03em;
+  font-family: $main-font;
+  font-style: normal;
+      }
+      &__item:not(:last-child) {
+        margin-bottom: 9px;
       }
       
 

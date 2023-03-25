@@ -409,7 +409,7 @@ footer {
   letter-spacing: 0.03em;
   line-height: 1.19;
 } */
-.logo-transition {
+/* .logo-transition {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: color, transform;
@@ -417,7 +417,7 @@ footer {
 .logo-transition:hover,
 .logo-transition:focus {
   transform: scale(1.05);
-}
+} */
 
 .address {
   display: block;
