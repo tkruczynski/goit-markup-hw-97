@@ -1,0 +1,39 @@
+.clients {
+    text-align: center;
+
+    &__head {
+        font-weight: $fontMedium;
+        font-size: 36px;
+        line-height: 1.17;
+        margin-bottom: 50px; 
+    }
+    &__list{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        width: 170px;
+        height: 92px;
+        border: solid 1px;
+        border-color: $icon-color;
+        border-radius: 4px;
+        transition-property: color, transform;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-duration: 250ms;
+    }
+    &__item:hover,
+    &__item:focus {
+        $icon-color: $active-color;
+      color: $active-color;
+      transform: scale(1.05);
+}
+&__icon {
+    fill: $icon-color;
+  margin: 16px 32px;
+}
+&__link {
+    transition-property: color, transform;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+}
+}

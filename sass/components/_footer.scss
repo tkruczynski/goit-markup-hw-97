@@ -1,0 +1,30 @@
+
+
+.footer {
+    padding: 60px 0;
+    background-color: $dark-background-color;
+
+    .logo {
+        font-family: Raleway;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        color: var(--logo-text-color);
+        transition-property: transform;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+        &:hover,
+        &:focus {
+            transform: scale(1.1);
+        }
+
+        &__span {
+            color: $active-color;
+        }
+    }
+        &__span--white {
+            color: $secondary-text-color;
+        } 
+        
