@@ -224,8 +224,6 @@ button {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
-
 button:hover,
 button:focus {
   background-color: var(--active-color);
@@ -292,7 +290,7 @@ button:focus {
   bottom: 0;
 }
 /* .work__overlay > p { */
-  .overlap__text { 
+.overlap__text {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
@@ -378,8 +376,6 @@ button:focus {
   margin-top: 16px;
 }
 
-
-
 .social__item:hover,
 .social__item:focus {
   background-color: var(--active-color);
@@ -393,7 +389,6 @@ footer {
   padding: 60px 0;
   background-color: var(--dark-background-color);
 }
-
 
 .logo__span {
   color: var(--active-color);
@@ -457,7 +452,6 @@ footer {
 }
 
 /* join section styles */
-
 
 .join__icon {
   fill: var(--secondary-text-color);
@@ -818,7 +812,7 @@ footer {
   transform: translateX(0);
 }
 
-.overlay > p {
+.overlay__text {
   font-size: 18px;
   line-height: 1.33;
   letter-spacing: 0.03em;
