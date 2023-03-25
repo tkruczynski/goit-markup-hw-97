@@ -10,7 +10,7 @@
         font-size: 26px;
         line-height: 1.19;
         letter-spacing: 0.03em;
-        color: var(--logo-text-color);
+        color: $logo-text-color;
         transition-property: transform;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -62,8 +62,8 @@
       &__item:not(:last-child) {
         margin-bottom: 9px;
       }
-      
+}
+ 
 
-    }
    
 
