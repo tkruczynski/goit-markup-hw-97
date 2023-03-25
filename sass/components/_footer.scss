@@ -24,7 +24,28 @@
             color: $active-color;
         }
     }
-        &__span--white {
+        logo__span--white {
             color: $secondary-text-color;
         } 
-        
+.address {
+    display: block;
+
+    &__list {
+        margin-top: 20px;
+    }
+    &__item {
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-property: color, transform;
+      }
+      &__item:hover,
+      &__item:focus {
+        $secondary-text-color: $active-color;
+  $footer-text-color: $active-color;
+  transform: scale(1.05);
+      }
+      
+
+    }
+   
+
