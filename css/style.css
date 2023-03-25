@@ -458,10 +458,7 @@ footer {
 
 /* join section styles */
 
-.join__list li {
-  border-radius: 50%;
-  background-color: var(--footer-icon-color);
-}
+
 .join__icon {
   fill: var(--secondary-text-color);
   display: block;
@@ -492,6 +489,7 @@ footer {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   padding: 12px 12px;
   border-radius: 50%;
+  background-color: var(--footer-icon-color);
 }
 .join__item:hover,
 .join__item:focus {
