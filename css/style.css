@@ -382,6 +382,8 @@ button:focus {
   --icon-color: var(--secondary-text-color);
   cursor: pointer;
 }
+.social__link {
+}
 
 /* Footer section styling */
 

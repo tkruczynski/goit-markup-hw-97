@@ -147,6 +147,11 @@
     margin-left: 12px;
     padding-left: 28px;
   }
+  &__button:hover,
+  &__button:focus {
+    transform: scale(1.05);
+    cursor: pointer;
+  }
   &__icon {
     fill: $secondary-text-color;
     margin-left: 20px;

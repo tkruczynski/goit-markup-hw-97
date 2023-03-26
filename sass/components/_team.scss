@@ -51,22 +51,30 @@
   gap: 10px;
   margin-top: 16px;
 
-  &__item {
+  // &__item {
+  //   padding: 12px 12px;
+  //   border-radius: 50%;
+  // }
+  &__link {
     transition-property: color, background-color, transform;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 250ms;
+    background-color: none;
     padding: 12px 12px;
     border-radius: 50%;
+    display: block;
   }
 
   &__icon {
     fill: $icon-color;
     display: block;
   }
-  &__item:hover,
+  &__link:hover,
+  &__link:focus &__item:hover,
   &__item:focus {
     background-color: $active-color;
     color: $secondary-text-color;
     cursor: pointer;
+    transform: scale(1.05);
   }
 }

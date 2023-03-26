@@ -42,7 +42,7 @@ svg {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #000000 25%;
+  color: #212121;
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
   transition-property: transform;
@@ -315,7 +315,7 @@ svg {
   gap: 10px;
   margin-top: 16px;
 }
-.social__item {
+.social__link {
   -webkit-transition-property: color, background-color, -webkit-transform;
   transition-property: color, background-color, -webkit-transform;
   transition-property: color, background-color, transform;
@@ -324,17 +324,21 @@ svg {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   -webkit-transition-duration: 250ms;
           transition-duration: 250ms;
+  background-color: none;
   padding: 12px 12px;
   border-radius: 50%;
+  display: block;
 }
 .social__icon {
   fill: #afb1b8;
   display: block;
 }
-.social__item:hover, .social__item:focus {
+.social__link:hover, .social__link:focus .social__item:hover, .social__item:focus {
   background-color: #2196f3;
   color: #ffffff;
   cursor: pointer;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .work__title {
@@ -560,6 +564,11 @@ svg {
   margin-left: 12px;
   padding-left: 28px;
 }
+.signup__button:hover, .signup__button:focus {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  cursor: pointer;
+}
 .signup__icon {
   fill: #ffffff;
   margin-left: 20px;
@@ -606,6 +615,9 @@ svg {
           box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.3);
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #2196f3;
 }
 
 .portfolio {
@@ -717,31 +729,22 @@ svg {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-.clients__item {
+.clients__icon {
+  fill: #afb1b8;
+  margin: 16px 32px;
+}
+.clients__link:hover, .clients__link:focus {
+  color: #2196f3;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+.clients__link {
+  display: block;
   width: 170px;
   height: 92px;
   border: solid 1px;
   border-color: #afb1b8;
   border-radius: 4px;
-  -webkit-transition-property: color, -webkit-transform;
-  transition-property: color, -webkit-transform;
-  transition-property: color, transform;
-  transition-property: color, transform, -webkit-transform;
-  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  -webkit-transition-duration: 250ms;
-          transition-duration: 250ms;
-}
-.clients__item:hover, .clients__item:focus {
-  color: #2196f3;
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
-}
-.clients__icon {
-  fill: #afb1b8;
-  margin: 16px 32px;
-}
-.clients__link {
   -webkit-transition-property: color, -webkit-transform;
   transition-property: color, -webkit-transform;
   transition-property: color, transform;
