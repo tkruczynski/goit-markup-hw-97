@@ -344,6 +344,9 @@ svg {
           transform: scale(1.05);
 }
 
+.work {
+  padding-top: 0;
+}
 .work__title {
   text-align: center;
   color: #212121;
@@ -352,6 +355,11 @@ svg {
   line-height: 1;
   letter-spacing: 0.03em;
   margin-bottom: 50px;
+}
+.work__item {
+  -ms-flex-preferred-size: calc((100% - 60px) / 3);
+      flex-basis: calc((100% - 60px) / 3);
+  position: relative;
 }
 .work__list {
   display: -webkit-box;
@@ -368,15 +376,15 @@ svg {
 }
 
 .overlap {
-  position: relative;
+  position: absolute;
   background-color: #2f303a;
   width: 100%;
+  bottom: 0;
   opacity: 0.8;
   height: 70px;
   margin-bottom: 0;
   display: block;
-  padding: auto;
-  top: calc(100% - 70px);
+  padding: 0 auto;
 }
 .overlap__text {
   font-size: 14px;
