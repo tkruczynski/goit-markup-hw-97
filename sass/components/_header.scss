@@ -79,11 +79,7 @@
     margin-right: 10px;
     fill: currentColor;
   }
-  // &__item {
-  //   transition-property: color, transform;
-  //   transition-duration: 250ms;
-  //   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  // }
+
   &__link:hover,
   &__link:focus {
     color: $active-color;
