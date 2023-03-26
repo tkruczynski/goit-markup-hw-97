@@ -11,19 +11,17 @@
     display: flex;
     justify-content: space-between;
   }
+  //   &__item {
+  //     color: $icon-color;
+  //   }
   &__icon {
-    fill: $icon-color;
     margin: 16px 32px;
   }
-  &__item {
-  }
+  //   &__item {
+  //   }
 
-  &__link:hover,
-  &__link:focus {
-    color: $active-color;
-    transform: scale(1.05);
-  }
   &__link {
+    color: $icon-color;
     display: block;
     width: 170px;
     height: 92px;
@@ -33,5 +31,11 @@
     transition-property: color, transform;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 250ms;
+  }
+  &__link:hover,
+  &__link:focus {
+    color: $active-color;
+    transform: scale(1.05);
+    border-color: $active-color;
   }
 }

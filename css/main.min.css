@@ -730,15 +730,10 @@ svg {
           justify-content: space-between;
 }
 .clients__icon {
-  fill: #afb1b8;
   margin: 16px 32px;
 }
-.clients__link:hover, .clients__link:focus {
-  color: #2196f3;
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
-}
 .clients__link {
+  color: #afb1b8;
   display: block;
   width: 170px;
   height: 92px;
@@ -753,6 +748,12 @@ svg {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   -webkit-transition-duration: 250ms;
           transition-duration: 250ms;
+}
+.clients__link:hover, .clients__link:focus {
+  color: #2196f3;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  border-color: #2196f3;
 }
 
 .modal {
@@ -807,7 +808,8 @@ svg {
   padding-top: 12px;
   padding-bottom: 12px;
 }
-.modal__label:focus-within, .modal__textarea:focus-within {
+.modal__input:focus-within, .modal__label:focus-within, .modal__textarea:focus-within {
+  fill: #2196f3;
   outline-color: #2196f3;
 }
 .modal__textarea {
@@ -880,6 +882,11 @@ svg {
 .modal__button-section {
   text-align: center;
 }
+.modal__button:hover, .modal__button:focus {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  cursor: pointer;
+}
 .modal__icon-tick {
   position: absolute;
   top: 0;
@@ -913,7 +920,7 @@ svg {
 .modal__link:hover, .modal__link:focus {
   -webkit-transform: scale(1.03);
           transform: scale(1.03);
-  font-weight: 500;
+  font-weight: 700;
 }
 .modal .backdrop {
   position: fixed;
@@ -950,6 +957,6 @@ svg {
   border-radius: 50%;
   cursor: pointer;
   padding: 0;
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }/*# sourceMappingURL=main.min.css.map */
