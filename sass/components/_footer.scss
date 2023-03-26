@@ -15,9 +15,7 @@
         line-height: 1.19;
         letter-spacing: 0.03em;
         color: $logo-text-color;
-        transition-property: transform;
-        transition-duration: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
       }
       &:hover,
       &:focus {
@@ -40,9 +38,7 @@
         margin-top: 20px;
       }
       &__item {
-        transition-duration: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-        transition-property: color, transform;
+        transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
       }
       &__item:hover,
       &__item:focus {
@@ -88,9 +84,7 @@
       &__item {
         border-radius: 50%;
         background-color: $footer-icon-color;
-        transition-property: color, transform;
-        transition-duration: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
         padding: 12px 12px;
       }
       &__icon {
@@ -138,9 +132,7 @@
         border: none;
         text-align: center;
         align-items: baseline;
-        transition-property: transform;
-        transition-duration: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
         margin-left: 12px;
         padding-left: 28px;
       }

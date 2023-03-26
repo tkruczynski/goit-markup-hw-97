@@ -55,9 +55,7 @@
     fill: $icon-color;
   }
   &__link {
-    transition-property: color, background-color, transform;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-duration: 250ms;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     background-color: none;
     padding: 12px 12px;
     border-radius: 50%;
