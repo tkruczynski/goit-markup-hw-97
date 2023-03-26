@@ -43,7 +43,7 @@
   &__link:hover,
   &__link:focus {
     transform: scale(1.1);
-   color: $active-color;
+    color: $active-color;
   }
   &__underline:after {
     content: "";
@@ -63,7 +63,6 @@
   display: flex;
   gap: 50px;
   margin-left: auto;
- 
 
   &__link {
     font-weight: $fontSmall;
@@ -74,12 +73,11 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
-  
+
   &__icon {
     display: block;
     margin-right: 10px;
     fill: currentColor;
-    
   }
   // &__item {
   //   transition-property: color, transform;
@@ -88,8 +86,7 @@
   // }
   &__link:hover,
   &__link:focus {
-    $paragraf-text-color: $active-color;
+    color: $active-color;
     transform: scale(1.1);
-      
-    }
   }
+}

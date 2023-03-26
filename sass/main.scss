@@ -1,6 +1,6 @@
-@import "./utils/variables";
+@use "./utils/variables";
 @import "./components/header";
-@import "./utils/reset";
+@use "./utils/reset";
 @import "./components/container";
 @import "./components/hero";
 @import "./components/futures";
