@@ -921,7 +921,8 @@ svg {
           transform: scale(1.05);
   font-weight: 700;
 }
-.modal .backdrop {
+
+.backdrop {
   position: fixed;
   left: 0;
   top: 0;
@@ -940,12 +941,14 @@ svg {
   -webkit-transition-duration: 250ms;
           transition-duration: 250ms;
 }
-.modal .is-hidden {
+
+.is-hidden {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
 }
-.modal .close-btn {
+
+.close-btn {
   position: absolute;
   display: block;
   width: 30px;
