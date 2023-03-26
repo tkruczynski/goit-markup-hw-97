@@ -136,8 +136,8 @@ svg {
 }
 .contact__link:hover, .contact__link:focus {
   color: #2196f3;
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .container {
@@ -421,8 +421,8 @@ svg {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .logo:hover, .logo:focus {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 .logo__span {
   color: #2196f3;
@@ -488,10 +488,6 @@ svg {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: 10px;
-  -webkit-transition-property: color, background-color, -webkit-transform;
-  transition-property: color, background-color, -webkit-transform;
-  transition-property: color, background-color, transform;
-  transition-property: color, background-color, transform, -webkit-transform;
 }
 .join__item {
   border-radius: 50%;
@@ -515,8 +511,8 @@ svg {
 .join__item:focus {
   background-color: #2196f3;
   cursor: pointer;
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .signup {
@@ -658,8 +654,8 @@ svg {
   -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 2px 2px 1px rgba(0, 0, 0, 0.3);
           box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 2px 2px 1px rgba(0, 0, 0, 0.3);
   cursor: pointer;
-  -webkit-transform: scale(1.01);
-          transform: scale(1.01);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .overlay {
@@ -921,8 +917,8 @@ svg {
   visibility: visible;
 }
 .modal__link:hover, .modal__link:focus {
-  -webkit-transform: scale(1.03);
-          transform: scale(1.03);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
   font-weight: 700;
 }
 .modal .backdrop {

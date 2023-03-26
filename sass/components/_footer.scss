@@ -24,7 +24,7 @@
   }
   &:hover,
   &:focus {
-    transform: scale(1.1);
+    transform: scale(1.05);
   }
 
   &__span {
@@ -87,7 +87,6 @@
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    transition-property: color, background-color, transform;
   }
   &__item {
     border-radius: 50%;
@@ -107,7 +106,7 @@
   background-color: $active-color;
   $icon-color: $secondary-text-color;
   cursor: pointer;
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .signup {
