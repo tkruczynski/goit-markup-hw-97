@@ -51,10 +51,9 @@
   gap: 10px;
   margin-top: 16px;
 
-  // &__item {
-  //   padding: 12px 12px;
-  //   border-radius: 50%;
-  // }
+  &__item {
+    fill: $icon-color;
+  }
   &__link {
     transition-property: color, background-color, transform;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -63,10 +62,10 @@
     padding: 12px 12px;
     border-radius: 50%;
     display: block;
+    color: $icon-color;
   }
 
   &__icon {
-    fill: $icon-color;
     display: block;
   }
   &__link:hover,

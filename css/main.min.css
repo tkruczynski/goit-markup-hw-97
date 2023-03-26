@@ -315,6 +315,9 @@ svg {
   gap: 10px;
   margin-top: 16px;
 }
+.social__item {
+  fill: #afb1b8;
+}
 .social__link {
   -webkit-transition-property: color, background-color, -webkit-transform;
   transition-property: color, background-color, -webkit-transform;
@@ -328,9 +331,9 @@ svg {
   padding: 12px 12px;
   border-radius: 50%;
   display: block;
+  color: #afb1b8;
 }
 .social__icon {
-  fill: #afb1b8;
   display: block;
 }
 .social__link:hover, .social__link:focus .social__item:hover, .social__item:focus {
