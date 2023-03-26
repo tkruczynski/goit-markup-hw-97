@@ -63,6 +63,7 @@
   display: flex;
   gap: 50px;
   margin-left: auto;
+ 
 
   &__link {
     font-weight: $fontSmall;
@@ -78,17 +79,17 @@
   &__icon {
     display: block;
     margin-right: 10px;
-    fill: $paragraf-text-color;
+    fill: currentColor;
+    
   }
-  &__item {
-    transition-property: color, transform;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  &__item:hover,
-  &__item:focus {
+  // &__item {
+  //   transition-property: color, transform;
+  //   transition-duration: 250ms;
+  //   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  // }
+  &__link:hover,
+  &__link:focus {
     $paragraf-text-color: $active-color;
-    color: $active-color;
     transform: scale(1.1);
       
     }
