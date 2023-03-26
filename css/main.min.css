@@ -384,16 +384,20 @@ svg {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 60px 0;
-  background-color: #2f303a;
 }
 
 .footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding: 60px 0;
+  background-color: #2f303a;
 }
-.footer .logo {
+
+.logo {
+  display: block;
+}
+.logo__item {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
@@ -409,12 +413,15 @@ svg {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer:hover, .footer:focus {
+.logo:hover, .logo:focus {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
-.footer__span {
+.logo__span {
   color: #2196f3;
+}
+.logo__span--white {
+  color: #ffffff;
 }
 
 .address {
@@ -434,6 +441,7 @@ svg {
   transition-property: color, transform, -webkit-transform;
 }
 .address__item:hover, .address__item:focus {
+  color: #2196f3;
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
 }
