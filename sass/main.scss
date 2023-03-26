@@ -1,6 +1,7 @@
 @use "./utils/variables";
-@import "./components/header";
 @use "./utils/reset";
+@import "./components/header";
+
 @import "./components/container";
 @import "./components/hero";
 @import "./components/futures";
@@ -11,4 +12,3 @@
 @import "./components/portfolio";
 @import "./components/clients";
 @import "./components/modal";
-
